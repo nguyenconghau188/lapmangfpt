@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::group(['middleware'=>'pagesmiddleware','prefix'=>'pages'], function(){
+    Route::get('/', 'PageController@getIndex');
 });
