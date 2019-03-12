@@ -9,11 +9,11 @@
 					    </div>
 					    <div class="col-md pr-4 d-flex topper align-items-center">
 					    	<div class="icon bg-secondary mr-2 d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
-						    <span class="text">{{$settings[1]['value']}}</span>
+						    <span class="text">thinhdv5@fpt.com.vn</span>
 					    </div>
 					    <div class="col-md pr-4 d-flex topper align-items-center">
 					    	<div class="icon bg-tertiary mr-2 d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
-						    <span class="text">{{$settings[0]['value']}}</span>
+						    <span class="text">0905-601-585</span>
 					    </div>
 				    </div>
 			    </div>
@@ -28,12 +28,10 @@
 	      </button>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	        	<li class="nav-item"><a href="pages/" class="nav-link pl-0">TRANG CHỦ</a></li>
-	        	<li class="nav-item"><a href="pages/service" class="nav-link">SẢN PHẨM DỊCH VỤ</a></li>
-	        	<li class="nav-item"><a href="courses.html" class="nav-link">KHUYẾN MÃI</a></li>
-	        	<li class="nav-item"><a href="pricing.html" class="nav-link">HỖ TRỢ KHÁCH HÀNG</a></li>
-	        	<li class="nav-item"><a href="blog.html" class="nav-link">TIN TỨC FPT</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">LIÊN HỆ</a></li>
+	        	<li class="nav-item"><a href="" class="nav-link pl-0">TRANG CHỦ</a></li>
+	        	<li class="nav-item"><a href="service" class="nav-link">SẢN PHẨM DỊCH VỤ</a></li>
+	        	<li class="nav-item"><a href="support" class="nav-link">HỖ TRỢ KHÁCH HÀNG</a></li>
+	          <li class="nav-item"><a href="contact" class="nav-link">LIÊN HỆ</a></li>
 	        </ul>
 	      </div>
 	    </div>

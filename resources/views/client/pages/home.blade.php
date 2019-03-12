@@ -34,7 +34,7 @@
               </div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">Hỗ trợ 24/7</h3>
-                <p>Bạn chỉ cần gọi đến Tổng đài {{$settings[0]['value']}}, chúng tôi sẽ tư vấn cụ thể, ký hợp đồng và mang dịch vụ đến tận nhà của bạn.</p>
+                <p>Bạn chỉ cần gọi đến Tổng đài 0905-601-585, chúng tôi sẽ tư vấn cụ thể, ký hợp đồng và mang dịch vụ đến tận nhà của bạn.</p>
               </div>
             </div>      
           </div>
@@ -45,7 +45,7 @@
     	<div class="container">
     		<div class="row justify-content-center mb-5 pb-2">
           <div class="col-md-8 text-center heading-section ftco-animate">
-            <h2 class="mb-4"><span>Gọi ngay tổng đài</span><b> {{$settings[0]['value']}}</b></h2>
+            <h2 class="mb-4"><span>Gọi ngay tổng đài</span><b> 0905-601-585</b></h2>
             <h3>Để được tư vấn gói cước tốt nhất</h3>
           </div>
         </div>
@@ -63,7 +63,7 @@
 	        		<div class="px-4">
 	        			<p>FPT INTERNET trải nghiệm đường truyền ổn định và tốc độ internet cáp quang vượt trội. Đường truyền dẫn hoàn toàn bằng cáp quang từ nhà cung cấp dịch vụ tới tận địa điểm sử dụng internet của khách hàng.</p>
         			</div>
-        			<p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Xem thêm</a></p>
+        			<p class="button text-center"><a href="service_internet" class="btn btn-primary px-4 py-3">Xem thêm</a></p>
         		</div>
         	</div>
         	<div class="col-md-6 col-lg-4 ftco-animate">
@@ -79,7 +79,7 @@
         			<div class="px-4">
 	        			<p>Truyền hình FPT là dịch vụ truyền hình đa phương tiện do Công ty cổ phần viễn thông FPT (FPT Telecom) cung cấp với hơn 170 kênh trong nước và quốc tế với chất lượng hình ảnh sắc nét, âm thanh sống động.</p>
         			</div>
-        			<p class="button text-center"><a href="#" class="btn btn-secondary px-4 py-3">Xem thêm</a></p>
+        			<p class="button text-center"><a href="service_tv" class="btn btn-secondary px-4 py-3">Xem thêm</a></p>
         		</div>
         	</div>
         	<div class="col-md-6 col-lg-4 ftco-animate">
@@ -95,7 +95,7 @@
         			<div class="px-4">
 	        			<p>FPT Play Box là truyền hình Internet thế hệ mới giúp nâng cấp tính năng và nội dung của chiếc TV sẵn có, người dùng sẽ thỏa sức bùng nổ cảm xúc khi “Xem không giới hạn” kho giải trí vô tận mà FPT Play Box cung cấp.</p>
         			</div>
-        			<p class="button text-center"><a href="#" class="btn btn-tertiary px-4 py-3">Xem thêm</a></p>
+        			<p class="button text-center"><a href="service_playbox" class="btn btn-tertiary px-4 py-3">Xem thêm</a></p>
         		</div>
         	</div>
         </div>

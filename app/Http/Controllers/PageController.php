@@ -31,4 +31,24 @@ class PageController extends Controller
     {
         return view('client.pages.service_playbox');
     }
+
+    public function getSupport()
+    {
+        return view('client.pages.support');
+    }
+
+    public function getSupportWifi()
+    {
+        return view('client.pages.support_wifi');
+    }
+
+    public function getSupportPhone()
+    {
+        return view('client.pages.support_phone');
+    }
+
+    public function getContact()
+    {
+        return view('client.pages.contact');
+    }
 }

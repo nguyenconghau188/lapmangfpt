@@ -15,6 +15,12 @@
 		    <div class="row">
                 <div class="col-lg-12 ftco-animate">
                     <h1 class="mb-3" style="text-align: center;"><strong>Dịch vụ Internet Cáp quang FTTH</strong></h1><br>
+                    <div class="row justify-content-center mb-5 pb-2">
+                    <div class="col-md-8 text-center heading-section ftco-animate">
+                      <h2 class="mb-4"><span>Gọi ngay tổng đài</span><b> 0905-601-585</b></h2>
+                      <h3>Để được tư vấn gói cước tốt nhất</h3>
+                    </div>
+                  </div>
                     <h2 class="mb-4" style="color: #fd7e14;"><span>Giới thiệu</span></h3>
                     <p>FTTH hiện đang là công nghệ kết nối viễn thông tiên tiến nhất trên thế giới, với đường truyền dẫn hoàn toàn bằng cáp quang từ nhà cung cấp dịch vụ tới tận địa điểm của khách hàng. Công nghệ này sở hữu tính năng ưu việt: với tốc độ truyền tải dữ liệu Internet xuống/lên (download/upload) ngang bằng nhau.</p>
                     <p>

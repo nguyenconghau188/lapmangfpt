@@ -3,7 +3,6 @@
 namespace App\Http\Middleware;
 
 use Closure;
-use App\Settings;
 use View;
 
 class PageMiddleware
@@ -17,8 +16,6 @@ class PageMiddleware
      */
     public function handle($request, Closure $next)
     {
-        $settings = Settings::all();
-        view()->share('settings', $settings);
         return $next($request);
     }
 }

@@ -27,7 +27,7 @@
 	        		<div class="px-4">
 	        			<p>FPT INTERNET trải nghiệm đường truyền ổn định và tốc độ internet cáp quang vượt trội. Đường truyền dẫn hoàn toàn bằng cáp quang từ nhà cung cấp dịch vụ tới tận địa điểm sử dụng internet của khách hàng.</p>
         			</div>
-        			<p class="button text-center"><a href="pages/service_internet" class="btn btn-primary px-4 py-3">Xem thêm</a></p>
+        			<p class="button text-center"><a href="service_internet" class="btn btn-primary px-4 py-3">Xem thêm</a></p>
         		</div>
         	</div>
         	<div class="col-md-6 col-lg-4 ftco-animate">
@@ -43,7 +43,7 @@
         			<div class="px-4">
 	        			<p>Truyền hình FPT là dịch vụ truyền hình đa phương tiện do Công ty cổ phần viễn thông FPT (FPT Telecom) cung cấp với hơn 170 kênh trong nước và quốc tế với chất lượng hình ảnh sắc nét, âm thanh sống động.</p>
         			</div>
-        			<p class="button text-center"><a href="#" class="btn btn-secondary px-4 py-3">Xem thêm</a></p>
+        			<p class="button text-center"><a href="service_tv" class="btn btn-secondary px-4 py-3">Xem thêm</a></p>
         		</div>
         	</div>
         	<div class="col-md-6 col-lg-4 ftco-animate">
@@ -59,7 +59,7 @@
         			<div class="px-4">
 	        			<p>FPT Play Box là truyền hình Internet thế hệ mới giúp nâng cấp tính năng và nội dung của chiếc TV sẵn có, người dùng sẽ thỏa sức bùng nổ cảm xúc khi “Xem không giới hạn” kho giải trí vô tận mà FPT Play Box cung cấp.</p>
         			</div>
-        			<p class="button text-center"><a href="#" class="btn btn-tertiary px-4 py-3">Xem thêm</a></p>
+        			<p class="button text-center"><a href="service_playbox" class="btn btn-tertiary px-4 py-3">Xem thêm</a></p>
         		</div>
         	</div>
         </div>
