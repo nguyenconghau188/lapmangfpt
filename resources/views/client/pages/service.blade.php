@@ -1,54 +1,18 @@
 @extends('client.template.index')
 @section('contents')
-    @include('client.template.slide')
-
-    <section class="ftco-services ftco-no-pb">
-			<div class="container-wrap">
-				<div class="row no-gutters">
-          <div class="col-md-4 d-flex services align-self-stretch pb-4 px-4 ftco-animate bg-primary">
-            <div class="media block-6 d-block text-center">
-              <div class="icon d-flex justify-content-center align-items-center">
-            		<span><img src="client_assets/images/001-flash.png" alt=""></span>
-              </div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">Tiện lợi - Nhanh chóng</h3>
-                <p>Chúng tôi hổ trợ 24/7 để đáp ứng bất cứ khi nào bận cần. Hổ trợ xử lý nhanh chóng các sự cố, hư hỏng. Hổ trợ các dịch vụ hậu mãi kịp thời và chu đáo.</p>
-              </div>
-            </div>      
-          </div>
-          <div class="col-md-4 d-flex services align-self-stretch pb-4 px-4 ftco-animate bg-tertiary">
-            <div class="media block-6 d-block text-center">
-              <div class="icon d-flex justify-content-center align-items-center">
-                <span><img src="client_assets/images/002-like.png" alt=""></span>
-              </div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">Nhiều ưu đãi</h3>
-                <p>Nhiều gói cước với nhiều chính sách khuyến mãi tương ứng nhắm đáp ứng thuận lợi và tiết kiệm nhất cho bạn. Có các chính sách dành riêng cho hộ gia đình, cho doanh nghiệp …</p>
-              </div>
-            </div>    
-          </div>
-          <div class="col-md-4 d-flex services align-self-stretch pb-4 px-4 ftco-animate bg-fifth">
-            <div class="media block-6 d-block text-center">
-              <div class="icon d-flex justify-content-center align-items-center">
-              <span><img src="client_assets/images/003-clock-circular-outline.png" alt=""></span>
-              </div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">Hỗ trợ 24/7</h3>
-                <p>Bạn chỉ cần gọi đến Tổng đài {{$settings[0]['value']}}, chúng tôi sẽ tư vấn cụ thể, ký hợp đồng và mang dịch vụ đến tận nhà của bạn.</p>
-              </div>
-            </div>      
-          </div>
-	    </div>
-	</section>
-
-    <section class="ftco-section">
-    	<div class="container">
-    		<div class="row justify-content-center mb-5 pb-2">
-          <div class="col-md-8 text-center heading-section ftco-animate">
-            <h2 class="mb-4"><span>Gọi ngay tổng đài</span><b> {{$settings[0]['value']}}</b></h2>
-            <h3>Để được tư vấn gói cước tốt nhất</h3>
+<section class="hero-wrap hero-wrap-2" style="background-image: url('client_assets/banners/fpt_play_box.jpg');">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-center justify-content-center">
+          <div class="col-md-9 ftco-animate text-center">
+            <h1 class="mb-2 bread">SẢN PHẨM - DỊCH VỤ</h1>
           </div>
         </div>
+      </div>
+    </section>
+		
+		<section class="ftco-section">
+    	<div class="container">
     		<div class="row">
         	<div class="col-md-6 col-lg-4 ftco-animate">
         		<div class="pricing-entry bg-light pb-4 text-center">
@@ -63,7 +27,7 @@
 	        		<div class="px-4">
 	        			<p>FPT INTERNET trải nghiệm đường truyền ổn định và tốc độ internet cáp quang vượt trội. Đường truyền dẫn hoàn toàn bằng cáp quang từ nhà cung cấp dịch vụ tới tận địa điểm sử dụng internet của khách hàng.</p>
         			</div>
-        			<p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Xem thêm</a></p>
+        			<p class="button text-center"><a href="pages/service_internet" class="btn btn-primary px-4 py-3">Xem thêm</a></p>
         		</div>
         	</div>
         	<div class="col-md-6 col-lg-4 ftco-animate">
@@ -101,9 +65,4 @@
         </div>
     	</div>
     </section>
-
-
-@endsection
-
-@section('scripts')
 @endsection

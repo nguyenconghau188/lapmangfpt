@@ -4,16 +4,16 @@
 	    		<div class="col-lg-12 d-block">
 		    		<div class="row d-flex">
 			    		<div class="col-md-5 pr-4 d-flex topper align-items-center">
-			    			<div class="icon bg-fifth mr-2 d-flex justify-content-center align-items-center"><span class="icon-map"></span></div>
-						    <span class="text">198 West 21th Street, Suite 721 New York NY 10016</span>
+			    			<!-- <div class="icon bg-fifth mr-2 d-flex justify-content-center align-items-center"><span class="icon-map"></span></div>
+						    <span class="text">198 West 21th Street, Suite 721 New York NY 10016</span> -->
 					    </div>
 					    <div class="col-md pr-4 d-flex topper align-items-center">
 					    	<div class="icon bg-secondary mr-2 d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
-						    <span class="text">youremail@email.com</span>
+						    <span class="text">{{$settings[1]['value']}}</span>
 					    </div>
 					    <div class="col-md pr-4 d-flex topper align-items-center">
 					    	<div class="icon bg-tertiary mr-2 d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
-						    <span class="text">+ 1235 2355 98</span>
+						    <span class="text">{{$settings[0]['value']}}</span>
 					    </div>
 				    </div>
 			    </div>
@@ -28,8 +28,8 @@
 	      </button>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	        	<li class="nav-item active"><a href="index.html" class="nav-link pl-0">TRANG CHỦ</a></li>
-	        	<li class="nav-item"><a href="teacher.html" class="nav-link">SẢN PHẨM DỊCH VỤ</a></li>
+	        	<li class="nav-item"><a href="pages/" class="nav-link pl-0">TRANG CHỦ</a></li>
+	        	<li class="nav-item"><a href="pages/service" class="nav-link">SẢN PHẨM DỊCH VỤ</a></li>
 	        	<li class="nav-item"><a href="courses.html" class="nav-link">KHUYẾN MÃI</a></li>
 	        	<li class="nav-item"><a href="pricing.html" class="nav-link">HỖ TRỢ KHÁCH HÀNG</a></li>
 	        	<li class="nav-item"><a href="blog.html" class="nav-link">TIN TỨC FPT</a></li>

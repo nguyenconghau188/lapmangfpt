@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Kiddos - Free Bootstrap 4 Template by Colorlib</title>
+    <title>Công ty FPT Telecom - Chi nhánh Đà Nẵng</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <!-- <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet"> -->
-
+    <base href="{{asset('')}}">
     <link rel="stylesheet" href="client_assets/css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="client_assets/css/animate.css">
     
@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="client_assets/css/flaticon.css">
     <link rel="stylesheet" href="client_assets/css/icomoon.css">
     <link rel="stylesheet" href="client_assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 <body>
 	@include('client.template.header')

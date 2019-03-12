@@ -13,4 +13,8 @@
 
 Route::group(['middleware'=>'pagesmiddleware','prefix'=>'pages'], function(){
     Route::get('/', 'PageController@getIndex');
+    Route::get('/service', 'PageController@getService');
+    Route::get('/service_internet', 'PageController@getServiceInternet');
+    Route::get('/service_tv', 'PageController@getServiceTV');
+    Route::get('/service_playbox', 'PageController@getPlayBox');
 });
